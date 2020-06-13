@@ -63,3 +63,28 @@ We can go to another branch by
 git checkout release1.0 //shows the code from release1.0 branch local repository
 git checkout master // shows the code from the master branch in local repo 
 
+Merge files from one branch to another
+--------------------------------------------
+git branch // List all the branches in local repo
+git checkout master //Working directory set with master branch
+git merge release1.0 // merge all the files from release1.0 branch into master branch
+git add . // To add new files im Master branch from Release branch
+git commit -m "Commited in Master"
+
+git pull origin master // To pull the files from the remote repo and merge in the local repo 
+If merge conflict arise the resolve the files manually the again go a $git commit
+git push -u remote master
+git checkout release1.0
+git push -u remote release1.0
+
+Merge selective files from one branch to another
+--------------------------------------------
+git branch // List all the branches in local repo
+git checkout master //Working directory set with master branch
+git checkout release1.0 -- file1 file2 etc // Only merge the files from release1.0 branch to master
+git add .
+git commit -m "Committed in Master"
+git push -u remote master
+
+
+
