@@ -25,4 +25,4 @@ This will set the head at the assigned commit_id, all the code checked in after 
 Collaboration with other // remote git
 -----------------------------------------------
  git remote add origin https://github.com/surajit2k2/mergetest.git   // Create a new connection to a remote repository, the name by default is origin
- git push -u origin master  // Push code from local repo master branch to remote repository and create a master branch in remote
+ git push -u origin master  // Push code to remote repository and create a master branch in remote from local repo master branch 
