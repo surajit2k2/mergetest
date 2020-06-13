@@ -1,6 +1,7 @@
 Commit Test Master1
 Commit Test Master2
 Commit Test Master3
+Commit in release branch 3
 Commit directly to remote Master
 Commit directly to remote Master 2
 Commit directly to remote Master 3
