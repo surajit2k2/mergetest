@@ -1,0 +1,28 @@
+git init
+git add File.txt
+git commit File.txt
+
+git status (shows status in green if add in repo, but not commited yet. Slows in Red if changed made in local and not added to repo yet)
+git diff (shows changes if file chages in local but not added to git yet)
+git log --graph --decorate --oneline
+git restore (revert back change in local if not added / commited to git yet)
+
+git tag -a v1.4 -m "my version 1.4"  (Created a tag)
+git tag (List the tags)
+
+To restore old code 
+---------------------------------------
+git log --oneline  // give commit id>>
+git checkout <<commit_id >>  // Changes the local file content to represent the files status as in commit_id
+git checkout master // makes the local file same as the head
+
+undo commmit
+------------------------------------------
+git log --oneline  // give commit id>>
+git reset --hard <<commit_id>>
+This will set the head at the assigned commit_id, all the code checked in after that commit_id is lost from git and local
+
+Collaboration with other // remote git
+-----------------------------------------------
+ git remote add origin https://github.com/surajit2k2/mergetest.git   // Create a new connection to a remote repository, the name by default is origin
+ git push -u origin master  // Push code from local repo master branch to remote repository and create a master branch in remote
