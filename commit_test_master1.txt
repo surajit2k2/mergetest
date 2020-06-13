@@ -1,3 +1,2 @@
 Commit Test Master1
 Commit Test Master2
-Commit Test Master3
