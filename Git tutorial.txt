@@ -30,3 +30,5 @@ Collaboration with other // remote git
  git branch // give branches in local repo, like master
  git branch -r // gives branches in remote repo, like origin/master ==> here origin denotes remote repo name and origin/master ==> master branch in origin repo
  
+ git fetch origin master // from remote repo and branch master to local repo
+ git merge origin/branch
