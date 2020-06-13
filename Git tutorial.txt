@@ -55,5 +55,7 @@ git branch --list // List all the branches in local repo
 git branch -d release1.0 // Create a new branch from master branch
 git push -u origin release1.0 // Create a new branch in remote repo
 
- 
+We can go to another branch by
+git checkout release1.0 //shows the code from release1.0 branch local repository
+git checkout master // shows the code from the master branch in local repo 
 
