@@ -49,6 +49,11 @@ If we do a $ $git pull origin  or $ git git fetch origin and git merge togther, 
 So we either need to commit the changes in local repo or discard the changes by $ git restore . 
 Then we can go a $git pull origin
 
+Using Branches
+-------------------------------------------
+git branch --list // List all the branches in local repo
+git branch -d release1.0 // Create a new branch from master branch
+git push -u origin release1.0 // Create a new branch in remote repo
 
  
 
