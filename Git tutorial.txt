@@ -83,6 +83,8 @@ Merge selective files from one branch to another
 git branch // List all the branches in local repo
 git checkout master //Working directory set with master branch
 git checkout release1.0 -- file1 file2 etc // Only merge the files from release1.0 branch to master
+						However this will override the working directory copy of master and there will be no notification given even if the files		
+						are updated in master branch. There is no merge conflict
 git add .
 git commit -m "Committed in Master"
 git push -u remote master
