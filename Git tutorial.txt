@@ -26,3 +26,7 @@ Collaboration with other // remote git
 -----------------------------------------------
  git remote add origin https://github.com/surajit2k2/mergetest.git   // Create a new connection to a remote repository, the name by default is origin
  git push -u origin master  // Push code to remote repository and create a master branch in remote from local repo master branch 
+
+ git branch // give branches in local repo, like master
+ git branch -r // gives branches in remote repo, like origin/master ==> here origin denotes remote repo name and origin/master ==> master branch in origin repo
+ 
