@@ -66,6 +66,7 @@ git checkout master // shows the code from the master branch in local repo
 Merge files from one branch to another
 --------------------------------------------
 git branch // List all the branches in local repo
+git diff release1.0 // to know the diference between the master branch and release branch
 git checkout master //Working directory set with master branch
 git merge release1.0 // merge all the files from release1.0 branch into master branch
 git add . // To add new files im Master branch from Release branch
