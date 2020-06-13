@@ -32,8 +32,17 @@ Collaboration with other // remote git
 
  git fetch origin master // from remote repo and branch master to local repo
  git merge origin/branch
-=======
  
- Commit directly to remote Master
+ git pull origin  // This command fetch from remote and merge to local repository .
+ 
+=======
+ Now if we directly commit to remote Master , by updating the file in github, then remote is ahead of local repo
+If we try to do  git push -u origin master it will give error as remote is ahead of local
+In this case we need to go a git pull origin 
+If the same file is also changed in local repo, then a merge conflict is created and the local file shows the merge and the conflict.
+Manaully the merge has to be done in the local file then do
+git add File.txt
+git commit -m "Update"
+git push - u origin master // This will make both the local and remote repo in sync
  
 
