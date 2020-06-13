@@ -9,6 +9,7 @@ Commit directly to remote Master 5
 Commit directly to remote Master 6
 Commit directly to remote Master 8
 Commit in release branch 1
+Commit in release branch 2
 =======
 
 
