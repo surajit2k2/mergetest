@@ -51,9 +51,13 @@ Then we can go a $git pull origin
 
 Using Branches
 -------------------------------------------
-git branch --list // List all the branches in local repo
-git branch -d release1.0 // Create a new branch from master branch
+git branch  // List all the branches in local repo
+git branch -a // List all the remote branches in local repo
+git branch release1.0 // Create a new branch from master branch
 git push -u origin release1.0 // Create a new branch in remote repo
+
+git branch -D release1.0 // delete a new branch from master branch
+git push -u origin --delete release1.0 // delete the branch in remote repo
 
 We can go to another branch by
 git checkout release1.0 //shows the code from release1.0 branch local repository
