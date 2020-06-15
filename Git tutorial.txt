@@ -89,5 +89,7 @@ git add .
 git commit -m "Committed in Master"
 git push -u remote master
 
+https://jasonrudolph.com/blog/2009/02/25/git-tip-how-to-merge-specific-files-from-another-branch/
+
 
 
